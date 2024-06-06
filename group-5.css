@@ -1,0 +1,346 @@
+.group-5 {
+    padding-bottom: 50px;
+    background: radial-gradient(ellipse at top left, #FFD6D6, white, transparent),
+        radial-gradient(ellipse at bottom right, #54BD95, white, transparent);
+}
+
+.header-top p {
+    display: block;
+    margin: 0 auto;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 73px;
+    width: 469px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.para-5 {
+    display: block;
+    margin: 0 auto;
+    width: 519px;
+    color: #A6A6A6;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dualbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    gap: 5px;
+    width: 340px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    filter: drop-shadow(1px 1px 4px rgb(202, 202, 202));
+}
+
+button {
+    width: 160px;
+    height: 56px;
+    background-color: white;
+    color: black;
+    border: 0px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.button1:hover {
+    background-color: #54BD95;
+    color: white;
+}
+
+.card-group {
+    display: flex;
+    width: 1180px;
+    justify-content: space-between;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+.cards {
+    width: 374px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 2%;
+    transition: transform 0.5s;
+}
+
+.cards:hover {
+    transform: scale(1.1);
+    background-color: #54BD95;
+    color: white;
+}
+
+.cards:hover .card-btn {
+    background-color: #54BD95;
+    color: white;
+}
+
+.cards:hover .card-header p {
+    color: white;
+}
+
+.cards:hover .moneytxt p {
+    color: white;
+}
+
+.cards:hover .card-header1 p {
+    color: white;
+}
+
+.cards:hover .card-one sup {
+    color: white;
+}
+
+.cards:hover .hoverbtn {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cards:hover .main-cont {
+    background-color: white;
+    color: #191A15;
+}
+
+.card-one p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-header p {
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #A6A6A6;
+    line-height: 27px;
+    width: 210px;
+    text-align: center;
+}
+
+.moneytxt p {
+    display: block;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #191A15;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card-one sup {
+    font-size: 18px;
+    color: #A6A6A6;
+}
+
+.card-header1 p {
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 27px;
+    width: 251px;
+    text-align: center;
+    color: #A6A6A6;
+}
+
+.main-cont {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: #F9FAFB;
+    border-radius: 10px;
+}
+
+.cont {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.cont-text {
+    display: block;
+    margin: 0 auto;
+    width: 255;
+    font-size: 18px;
+    color: #191A15;
+}
+
+.cont-img {
+    height: 26px;
+    width: 26px;
+    padding-left: 10px;
+}
+
+.card-btn {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 64px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #54BD95;
+    filter: drop-shadow(1px 3px 0px rgb(224, 224, 224));
+}
+
+.hbtn {
+    display: none;
+    margin: 0 auto;
+    background-color: #85DAB9;
+    height: 30px;
+    margin-top: 10px;
+    width: 150px;
+    font-size: 14px;
+    color: white;
+
+}
+
+@media (min-width: 400px) and (max-width: 576px) {
+
+    .group-5 {
+        background: radial-gradient(ellipse at top left, #FFD6D6, white, transparent),
+            radial-gradient(ellipse at bottom right, #54BD95, white, transparent);
+    }
+
+    .header-top p {
+        display: block;
+        margin: 0 auto;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        line-height: 20px;
+        width: 400px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .para-5 {
+        display: block;
+        margin: 0 auto;
+        width: 260px;
+        color: #A6A6A6;
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+    .card-header p {
+        display: block;
+        margin: 0 auto;
+        font-size: 14px;
+        color: #A6A6A6;
+        line-height: 20px;
+        width: 250px;
+        text-align: center;
+    }
+
+    .dualbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 5px;
+        width: 237px;
+        height: 56px;
+        border-radius: 10px;
+        background-color: white;
+        filter: drop-shadow(1px 1px 4px rgb(202, 202, 202));
+    }
+
+    button {
+        width: 160px;
+        height: 56px;
+        background-color: white;
+        color: black;
+        border: 0px;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    .button1:hover {
+        background-color: #54BD95;
+        color: white;
+    }
+
+    .card-group {
+        display: flex;
+        flex-direction: column;
+        width: 1180px;
+        justify-content: space-between;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .cards {
+        width: 374px;
+        height: 582px;
+        border-radius: 10px;
+        background-color: white;
+        margin: 2%;
+        transition: transform 0.5s;
+    }
+
+    .card-one {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .card-one sup {
+        font-size: 16px;
+        color: #A6A6A6;
+    }
+
+    .main-cont {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 290px;
+        height: 355px;
+        background-color: #F9FAFB;
+        border-radius: 10px;
+    }
+
+    .cont-text {
+        display: block;
+        margin: 0 auto;
+        width: 255;
+        font-size: 14px;
+        color: #191A15;
+    }
+
+    .card-btn {
+        display: block;
+        margin: 0 auto;
+        width: 190px;
+        height: 50px;
+        border-radius: 20px;
+        margin-top: 30px;
+        font-size: 18px;
+        color: #54BD95;
+        filter: drop-shadow(1px 3px 0px rgb(224, 224, 224));
+    }
+
+    .moneytxt p {
+        display: block;
+        margin: 0 auto;
+        font-size: 36px;
+        color: #191A15;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+
+}
