@@ -1,0 +1,415 @@
+.group-6 {
+    height: auto;
+    width: auto;
+    background-color: #161C28;
+}
+
+.footer-one {
+    display: flex;
+    padding-left: 130px;
+    gap: 100px;
+}
+
+.review {
+    width: 466px;
+    height: 588px;
+}
+
+.review p {
+    margin-bottom: 20px;
+    width: 444px;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+}
+
+.review-text p {
+    width: 461px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #A6A6A6;
+}
+
+.quotes-symbol {
+    height: 38px;
+    width: 45px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.review-cont p {
+
+    width: 461px;
+    font-size: 18px;
+    color: #A6A6A6;
+    line-height: 30px;
+
+}
+
+.flow-img {
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 66px;
+    height: 66px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 612px;
+    height: 588;
+    background-color: #222938;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.form-img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 168px;
+    height: 132px;
+}
+
+.form-size {
+    width: 440px;
+    height: 340px;
+}
+
+.email-form label {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.email-form {
+    padding-top: 10px;
+}
+
+.email-form input,
+textarea {
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.email-form input {
+    width: 440px;
+    height: 50px;
+}
+
+.email-form textarea {
+    height: 80px;
+    width: 440px;
+}
+
+.requestbtn {
+    margin-top: 90px;
+    background-color: #54BD95;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 440px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.form-footer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 320px;
+}
+
+.form-footer p {
+    font-size: 14px;
+    color: #A6A6A6;
+}
+
+.form-footer a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer-two {
+    display: flex;
+    gap: 100px;
+    padding-left: 130px;
+    padding-top: 120px;
+}
+
+.foot p {
+    width: 286px;
+    font-size: 18px;
+    color: #A6A6A6;
+    margin-bottom: 30px;
+}
+
+.foot-img {
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.f-mail {
+    background-color: transparent;
+    border: 2px solid #A6A6A6;
+    width: 410px;
+    height: 60px;
+    border-radius: 70px;
+    padding: 10px;
+    font-size: 18px;
+    color: #A6A6A6;
+}
+
+.footbtn {
+    position: relative;
+    top: 18px;
+    right: 60px;
+    height: 46px;
+    width: 46px;
+}
+
+.foot-list {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-list {
+    width: 175px;
+    height: 200px;
+}
+
+.menu-list ul {
+    padding: 0%;
+}
+
+.menu-list h1 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #A6A6A6;
+}
+
+.menu-list li {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.footer-three {
+    display: flex;
+    padding-left: 130px;
+    gap: 460px;
+    padding-top: 40px;
+}
+
+.footer-three p {
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links span {
+    color: #fff;
+}
+
+@media (min-width: 400px) and (max-width: 576px) {
+
+    .footer-one {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        gap: 0px;
+    }
+
+    .review {
+        width: 466px;
+        height: 475px;
+    }
+
+    .review p {
+        margin-bottom: 30px;
+        width: 444px;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .review-text p {
+        display: block;
+        margin: 0 auto;
+        width: 330px;
+        line-height: 24px;
+        font-size: 14px;
+        color: #A6A6A6;
+        text-align: center;
+    }
+
+    .quotes-symbol {
+        padding-left: 70px;
+        text-align: center;
+        height: 28px;
+        width: 25px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .review-cont p {
+        display: block;
+        margin: 0 auto;
+        width: 357px;
+        font-size: 14px;
+        color: #A6A6A6;
+        line-height: 28px;
+
+    }
+
+    .flow-bar {
+        padding-left: 50px;
+    }
+
+    .flow-img {
+        width: 45px;
+        height: 66px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 380px;
+        height: 588;
+        background-color: #222938;
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .form-img {
+        display: block;
+        margin: 0 auto;
+        padding-top: 0px;
+        width: 168px;
+        height: 120px;
+    }
+
+    .email-form {
+        padding-top: 10px;
+        padding-left: 40px;
+    }
+
+    .email-form input {
+        width: 351px;
+        height: 50px;
+    }
+
+    .email-form textarea {
+        height: 80px;
+        width: 351px;
+    }
+
+    .requestbtn {
+        margin-top: 60px;
+        background-color: #54BD95;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        width: 280px;
+        height: 44px;
+        font-size: 16px;
+    }
+
+    .form-footer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding-left: 0px;
+    }
+
+    .footer-two {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+
+    .f-mail {
+        background-color: transparent;
+        border: 2px solid #A6A6A6;
+        width: 344px;
+        height: 60px;
+        border-radius: 70px;
+        font-size: 16px;
+        color: #A6A6A6;
+    }
+
+    .foot p {
+        width: 286px;
+        font-size: 16px;
+        color: #A6A6A6;
+        margin-bottom: 10px;
+    }
+    .menu-list li {
+        list-style-type: none;
+        margin-top: 10px;
+    }
+    .menu-list h1 {
+        color: white;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .menu-list a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #A6A6A6;
+    }
+
+    .footer-three {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        gap: 0px;
+        padding-top: 5px;
+    }
+
+    .footer-three p {
+        font-size: 14px;
+        color: white;
+        text-align: center;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+
+}
