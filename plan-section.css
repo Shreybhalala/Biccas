@@ -1,10 +1,10 @@
-.group-5 {
+.plan-section{
     padding-bottom: 50px;
     background: radial-gradient(ellipse at top left, #FFD6D6, white, transparent),
         radial-gradient(ellipse at bottom right, #54BD95, white, transparent);
 }
 
-.header-top p {
+.plan-heading-text p {
     display: block;
     margin: 0 auto;
     font-size: 50px;
@@ -16,7 +16,7 @@
     padding-top: 40px;
 }
 
-.para-5 {
+.plan-subtext {
     display: block;
     margin: 0 auto;
     width: 519px;
@@ -25,7 +25,7 @@
     font-weight: bold;
 }
 
-.dualbtn {
+.plan-dual-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,12 +49,12 @@ button {
     border-radius: 10px;
 }
 
-.button1:hover {
+.dual-button:hover {
     background-color: #54BD95;
     color: white;
 }
 
-.card-group {
+.plan-card-section {
     display: flex;
     width: 1180px;
     justify-content: space-between;
@@ -82,40 +82,37 @@ button {
     color: white;
 }
 
-.cards:hover .card-header p {
+.cards:hover .plan-card-header p {
+    color: white;
+}
+.cards:hover .plan-card-header3 p {
+    color: white;
+}
+.cards:hover .amount-text p {
+    color: white;
+}
+.cards:hover .plan-card sup {
     color: white;
 }
 
-.cards:hover .moneytxt p {
-    color: white;
-}
-
-.cards:hover .card-header1 p {
-    color: white;
-}
-
-.cards:hover .card-one sup {
-    color: white;
-}
-
-.cards:hover .hoverbtn {
+.cards:hover .hbtn {
     display: block;
     margin-bottom: 10px;
 }
 
-.cards:hover .main-cont {
+.cards:hover .plan-feature-section {
     background-color: white;
     color: #191A15;
 }
 
-.card-one p {
+.plan-card p {
     text-align: center;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.card-header p {
+.plan-card-header p {
     display: block;
     margin: 0 auto;
     font-size: 18px;
@@ -125,7 +122,7 @@ button {
     text-align: center;
 }
 
-.moneytxt p {
+.amount-text p {
     display: block;
     margin: 0 auto;
     font-size: 50px;
@@ -135,22 +132,14 @@ button {
     padding-top: 20px;
 }
 
-.card-one sup {
+.plan-card sup {
     font-size: 18px;
     color: #A6A6A6;
 }
 
-.card-header1 p {
-    display: block;
-    margin: 0 auto;
-    font-size: 18px;
-    line-height: 27px;
-    width: 251px;
-    text-align: center;
-    color: #A6A6A6;
-}
 
-.main-cont {
+
+.plan-feature-section {
     display: block;
     margin: 0 auto;
     margin-top: 10px;
@@ -160,13 +149,13 @@ button {
     border-radius: 10px;
 }
 
-.cont {
+.plan-feature {
     display: flex;
     gap: 5px;
     align-items: center;
 }
 
-.cont-text {
+.feature-text {
     display: block;
     margin: 0 auto;
     width: 255;
@@ -174,12 +163,20 @@ button {
     color: #191A15;
 }
 
-.cont-img {
+.bullet-img {
     height: 26px;
     width: 26px;
     padding-left: 10px;
 }
-
+.plan-card-header3 p {
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 27px;
+    width: 251px;
+    text-align: center;
+    color: #A6A6A6;
+}
 .card-btn {
     display: block;
     margin: 0 auto;
@@ -206,12 +203,12 @@ button {
 
 @media (min-width: 400px) and (max-width: 576px) {
 
-    .group-5 {
+    .plan-section {
         background: radial-gradient(ellipse at top left, #FFD6D6, white, transparent),
             radial-gradient(ellipse at bottom right, #54BD95, white, transparent);
     }
 
-    .header-top p {
+    .plan-heading-text p {
         display: block;
         margin: 0 auto;
         font-size: 20px;
@@ -222,7 +219,7 @@ button {
         text-align: center;
         padding-top: 20px;
     }
-    .para-5 {
+    .plan-subtext{
         display: block;
         margin: 0 auto;
         width: 260px;
@@ -233,18 +230,7 @@ button {
         text-align: center;
     }
 
-
-    .card-header p {
-        display: block;
-        margin: 0 auto;
-        font-size: 14px;
-        color: #A6A6A6;
-        line-height: 20px;
-        width: 250px;
-        text-align: center;
-    }
-
-    .dualbtn {
+    .plan-dual-btn {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -257,7 +243,7 @@ button {
         filter: drop-shadow(1px 1px 4px rgb(202, 202, 202));
     }
 
-    button {
+    .dual-button  {
         width: 160px;
         height: 56px;
         background-color: white;
@@ -267,12 +253,24 @@ button {
         border-radius: 10px;
     }
 
-    .button1:hover {
+    .dual-button:hover  {
         background-color: #54BD95;
         color: white;
     }
 
-    .card-group {
+    .plan-card-header p {
+        display: block;
+        margin: 0 auto;
+        font-size: 14px;
+        color: #A6A6A6;
+        line-height: 20px;
+        width: 250px;
+        text-align: center;
+    }
+
+ 
+
+    .plan-card-section {
         display: flex;
         flex-direction: column;
         width: 1180px;
@@ -290,19 +288,19 @@ button {
         transition: transform 0.5s;
     }
 
-    .card-one {
+    .plan-card {
         text-align: center;
         font-size: 20px;
         font-weight: 600;
         margin-bottom: 10px;
     }
 
-    .card-one sup {
+    .amount-text sup {
         font-size: 16px;
         color: #A6A6A6;
     }
 
-    .main-cont {
+    .plan-feature-section {
         display: block;
         margin: 0 auto;
         margin-top: 10px;
@@ -312,7 +310,7 @@ button {
         border-radius: 10px;
     }
 
-    .cont-text {
+    .feature-text {
         display: block;
         margin: 0 auto;
         width: 255;
@@ -332,7 +330,7 @@ button {
         filter: drop-shadow(1px 3px 0px rgb(224, 224, 224));
     }
 
-    .moneytxt p {
+    .amount-text p {
         display: block;
         margin: 0 auto;
         font-size: 36px;

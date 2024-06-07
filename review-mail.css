@@ -1,21 +1,21 @@
-.group-6 {
+.review-mail-section {
     height: auto;
     width: auto;
     background-color: #161C28;
 }
 
-.footer-one {
+.review-section {
     display: flex;
     padding-left: 130px;
     gap: 100px;
 }
 
-.review {
+.review-content {
     width: 466px;
     height: 588px;
 }
 
-.review p {
+.review-content p {
     margin-bottom: 20px;
     width: 444px;
     font-weight: 600;
@@ -30,14 +30,14 @@
     color: #A6A6A6;
 }
 
-.quotes-symbol {
+.double-quote-img {
     height: 38px;
     width: 45px;
     padding-top: 40px;
     padding-bottom: 30px;
 }
 
-.review-cont p {
+.customer-comment p {
 
     width: 461px;
     font-size: 18px;
@@ -53,7 +53,7 @@
     height: 66px;
 }
 
-.form {
+.request-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,17 +65,17 @@
     margin-top: 40px;
 }
 
-.form-img {
+.form-size {
+    width: 440px;
+    height: 340px;
+}
+
+.get-started-img {
     display: block;
     margin: 0 auto;
     padding-top: 20px;
     width: 168px;
     height: 132px;
-}
-
-.form-size {
-    width: 440px;
-    height: 340px;
 }
 
 .email-form label {
@@ -121,45 +121,45 @@ textarea {
     font-size: 16px;
 }
 
-.form-footer {
+.request-form-footer {
     display: flex;
     align-items: center;
     gap: 5px;
     padding-left: 320px;
 }
 
-.form-footer p {
+.request-form-footer p {
     font-size: 14px;
     color: #A6A6A6;
 }
 
-.form-footer a {
+.request-form-footer a {
     font-size: 14px;
     color: white;
     text-decoration: none;
 }
 
 
-.footer-two {
+.biccas-mail-section {
     display: flex;
     gap: 100px;
     padding-left: 130px;
     padding-top: 120px;
 }
 
-.foot p {
+.biccas-content p {
     width: 286px;
     font-size: 18px;
     color: #A6A6A6;
     margin-bottom: 30px;
 }
 
-.foot-img {
+.biccas-img {
     height: 30px;
     padding-bottom: 10px;
 }
 
-.f-mail {
+.biccas-mail {
     background-color: transparent;
     border: 2px solid #A6A6A6;
     width: 410px;
@@ -170,7 +170,7 @@ textarea {
     color: #A6A6A6;
 }
 
-.footbtn {
+.arrow-button {
     position: relative;
     top: 18px;
     right: 60px;
@@ -178,78 +178,78 @@ textarea {
     width: 46px;
 }
 
-.foot-list {
+.footer-list {
     display: flex;
     gap: 40px;
 }
 
-.menu-list {
+.footer-menu-list {
     width: 175px;
     height: 200px;
 }
 
-.menu-list ul {
+.footer-menu-list ul {
     padding: 0%;
 }
 
-.menu-list h1 {
+.footer-menu-list h1 {
     color: white;
     font-size: 18px;
     margin-bottom: 30px;
 }
 
-.menu-list a {
+.footer-menu-list a {
     text-decoration: none;
     font-size: 18px;
     color: #A6A6A6;
 }
 
-.menu-list li {
+.footer-menu-list li {
     list-style-type: none;
     margin-top: 15px;
 }
 
-.footer-three {
+.footer-copyright {
     display: flex;
     padding-left: 130px;
     gap: 460px;
     padding-top: 40px;
 }
 
-.footer-three p {
+.footer-copyright p {
     color: white;
 }
 
-.footer-links {
+.footer-terms {
     display: flex;
     align-items: center;
 }
 
-.footer-links a {
+.footer-terms a {
     color: #fff;
     text-decoration: none;
     margin: 0 5px;
 }
 
-.footer-links span {
+.footer-terms span {
     color: #fff;
 }
 
 @media (min-width: 400px) and (max-width: 576px) {
 
-    .footer-one {
+    .review-section {
         display: flex;
         flex-direction: column;
         padding-left: 0px;
         gap: 0px;
     }
 
-    .review {
+    .review-content {
         width: 425px;
         height: 475px;
     }
 
-    .review p {
+    .review-content p {
         margin-bottom: 30px;
         width: 444px;
         font-weight: 600;
@@ -268,7 +268,7 @@ textarea {
         text-align: center;
     }
 
-    .quotes-symbol {
+    .double-quote-img {
         padding-left: 70px;
         text-align: center;
         height: 28px;
@@ -277,7 +277,7 @@ textarea {
         padding-bottom: 40px;
     }
 
-    .review-cont p {
+    .customer-comment p {
         display: block;
         margin: 0 auto;
         width: 357px;
@@ -287,7 +287,7 @@ textarea {
 
     }
 
-    .flow-bar {
+    .customer-image-bar {
         padding-left: 50px;
     }
 
@@ -296,7 +296,7 @@ textarea {
         height: 66px;
     }
 
-    .form {
+    .request-form {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -309,7 +309,7 @@ textarea {
         margin-top: 40px;
     }
 
-    .form-img {
+    .form-header-img {
         display: block;
         margin: 0 auto;
         padding-top: 0px;
@@ -333,7 +333,7 @@ textarea {
     }
 
     .requestbtn {
-        margin-top: 60px;
+
         background-color: #54BD95;
         color: #fff;
         padding: 10px;
@@ -344,14 +344,14 @@ textarea {
         font-size: 16px;
     }
 
-    .form-footer {
+    .request-form-footer {
         display: flex;
         align-items: center;
         gap: 5px;
         padding-left: 0px;
     }
 
-    .footer-two {
+    .biccas-mail-section {
         display: flex;
         flex-direction: column;
         gap: 40px;
@@ -359,7 +359,7 @@ textarea {
         padding-top: 40px;
     }
 
-    .f-mail {
+    .biccas-mail {
         background-color: transparent;
         border: 2px solid #A6A6A6;
         width: 344px;
@@ -369,29 +369,31 @@ textarea {
         color: #A6A6A6;
     }
 
-    .foot p {
+    .biccas-content p {
         width: 286px;
         font-size: 16px;
         color: #A6A6A6;
         margin-bottom: 10px;
     }
-    .menu-list li {
+
+    .footer-menu-list li {
         list-style-type: none;
         margin-top: 10px;
     }
-    .menu-list h1 {
+
+    .footer-menu-list h1 {
         color: white;
         font-size: 14px;
         margin-bottom: 20px;
     }
 
-    .menu-list a {
+    .footer-menu-list a {
         text-decoration: none;
         font-size: 12px;
         color: #A6A6A6;
     }
 
-    .footer-three {
+    .footer-copyright {
         display: flex;
         flex-direction: column;
         padding-left: 30px;
@@ -399,13 +401,13 @@ textarea {
         padding-top: 5px;
     }
 
-    .footer-three p {
+    .footer-copyright p {
         font-size: 14px;
         color: white;
         text-align: center;
     }
 
-    .footer-links {
+    .footer-terms {
         display: flex;
         justify-content: center;
         font-size: 14px;
