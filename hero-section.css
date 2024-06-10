@@ -12,12 +12,55 @@ body {
         radial-gradient(ellipse at bottom right, #52BDAA, white, transparent);
 }
 
+/* Sidebar */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.sidebar-content a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar-content a:hover {
+    color: #54BD95;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+
+}
+
+/* Main header styles */
 .hero-section-header {
     align-items: center;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20 20px;
 }
 
 .main-header {
@@ -37,7 +80,6 @@ body {
     width: 408px;
     padding-left: 350px;
     list-style-type: none;
-    
 }
 
 .nav-links li {
@@ -79,7 +121,7 @@ body {
     font-size: 18px;
 }
 
-.hamburger{
+.hamburger {
     display: none;
     font-size: 30px;
 }
@@ -92,6 +134,7 @@ body {
     background-color: #54BD95;
     color: white;
 }
+
 .hero-section-text {
     display: flex;
     align-items: center;
@@ -111,7 +154,7 @@ body {
     line-height: 90px;
 }
 
-.productivity-subtext{
+.productivity-subtext {
     padding: 20px 0px 0px 130px;
     width: 461px;
     font-size: 18px;
@@ -154,7 +197,6 @@ body {
     display: flex;
     position: relative;
     width: 100%;
-
 }
 
 .section-img {
@@ -211,7 +253,7 @@ input {
     font-size: 13px;
 }
 
-.credit-card-img  {
+.credit-card-img {
     position: absolute;
     top: 330px;
     left: 330px;
@@ -272,23 +314,31 @@ input {
         margin: 0;
         padding: 0;
     }
-  
 
     .hero-section-header {
-        padding: 0 10px;
+        width: 400px;
+        padding: 10px 0px 0px 0px;
+
     }
 
     .main-header {
         flex-direction: column;
         align-items: flex-start;
-        gap: 10px;
         position: relative;
     }
 
     .navbar {
         display: none;
-        flex-direction: column;
-        width: 100px;
+    }
+
+    .signupbtn {
+        width: 80px;
+        height: 40px;
+        border-radius: 10px;
+        border: 0;
+        background-color: #54BD95;
+        color: white;
+        margin-left: 28px;
     }
 
     .hamburger {
@@ -298,78 +348,12 @@ input {
         right: 10px;
     }
 
-    .navbar.open {
-        display: flex;
-        background-color: white;
-        width: 200px;
-        border-radius: 10px;
-        height: 250px;
-        margin-left: 212px;
-
-    }
-
-    .nav-links {
-        flex-direction: column;
-        padding-left: 0;
-        width: 100px;
-        margin: 0 auto;
-       
-
-
-    }
-
-    .nav-links li {
-        line-height: 30px;
-        text-align: center;
-        width: 100%;
-        padding-left: 0px;
-    }
-
-    .nav-links a {
-        width: 100%;
-        padding: 0px;
-        line-height: 25px;
-        color: #A6A6A6;
-        text-decoration: none;
-    }
-
-    .nav-links a:hover {
-        color: black;
-    }
-
-    .login {
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        padding: 0;
-    }
-    .login ul {
-        display: flex;
-        gap: 20px;
-        list-style-type: none;
-        padding:0px;
-    }
-
-    .login a {
-        font-size: 16px;
-        color: #A6A6A6;
-        text-decoration: none;
-    }
-
-    .signupbtn {
-        width: 80px;
-        height: 40px;
-        font-size: 14px;
-    }
-
-
-
     .hero-section-text {
         flex-direction: column;
         gap: 20px;
     }
 
-    .productivity-text{
+    .productivity-text {
         padding: 0;
         width: 100%;
         font-size: 30px;
@@ -428,7 +412,6 @@ input {
 
     .value-box {
         display: none;
-
     }
 
     .main-content {
@@ -461,7 +444,6 @@ input {
         top: 228px;
         left: 287px;
         width: 100px;
-
     }
 
     .yellow-block-image {
@@ -473,18 +455,18 @@ input {
         margin: 10px 0;
     }
 
-    .pink-msg-image{
+    .pink-msg-image {
         position: absolute;
         left: 270px;
         top: 375px;
         width: 40px;
     }
 
-    .blue-tick-image{
+    .blue-tick-image {
         width: 40px;
     }
 
-    .total-income-image{
+    .total-income-image {
         position: absolute;
         width: 100px;
         top: 310px;
@@ -495,6 +477,7 @@ input {
 
     .hero-section-company p {
         font-size: 20px;
+        margin: 0;
     }
 
     .company-logo-bar {

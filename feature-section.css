@@ -59,7 +59,7 @@
 }
 
 .card-text p {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -80,20 +80,24 @@
         padding-left: 0px;
         width: 100%;
     }
-    .feature-header-text p{
+
+    .feature-header-text p {
         line-height: 0px;
         font-weight: 600;
         font-size: 30px;
         text-align: center;
         width: 365px;
     }
+
     .feature-header-subtext p {
         line-height: 20px;
         font-size: 14px;
         color: #A6A6A6;
-        width: 441px;
+        width: 283px;
         text-align: center;
+        margin: 0px;
     }
+
     .feature-start-button {
         width: 100px;
         height: 30px;
@@ -101,28 +105,34 @@
         border: 0;
         background-color: #54BD95;
         color: white;
+        margin: 20px 0px 20px 0px;
         font-size: 15px;
     }
+
     .feature-card-section {
         display: flex;
         flex-direction: column;
-        width: 1180px;
+        width: 100%;
         gap: 10px;
         padding-left: 0px;
+        align-items: center;
+        padding-bottom: 20px;
     }
+
     .card {
         width: 364px;
         height: 360px;
         border-radius: 20px;
         margin: 2%;
+       
     }
+
     .card img {
         object-fit: cover;
         border-radius: 20px;
     }
 
     .card-text {
-        padding-left: 20px;
         padding-top: 40px;
     }
 }

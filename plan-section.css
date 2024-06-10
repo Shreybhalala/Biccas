@@ -1,4 +1,4 @@
-.plan-section{
+.plan-section {
     padding-bottom: 50px;
     background: radial-gradient(ellipse at top left, #FFD6D6, white, transparent),
         radial-gradient(ellipse at bottom right, #54BD95, white, transparent);
@@ -16,7 +16,7 @@
     padding-top: 40px;
 }
 
-.plan-subtext {
+.plan-subtext p {
     display: block;
     margin: 0 auto;
     width: 519px;
@@ -62,7 +62,7 @@ button {
     margin-top: 20px;
 }
 
-.cards {
+.buy-plan-cards {
     width: 374px;
     height: 650px;
     border-radius: 10px;
@@ -71,48 +71,47 @@ button {
     transition: transform 0.5s;
 }
 
-.cards:hover {
+.buy-plan-cards:hover {
     transform: scale(1.1);
     background-color: #54BD95;
     color: white;
 }
 
-.cards:hover .card-btn {
+.buy-plan-cards:hover .card-btn {
     background-color: #54BD95;
     color: white;
 }
 
-.cards:hover .plan-card-header p {
-    color: white;
-}
-.cards:hover .plan-card-header3 p {
-    color: white;
-}
-.cards:hover .amount-text p {
-    color: white;
-}
-.cards:hover .plan-card sup {
+.buy-plan-cards:hover .plan-card-subtext p {
     color: white;
 }
 
-.cards:hover .hbtn {
+.buy-plan-cards:hover .plan-card-subtext-one p {
+    color: white;
+}
+
+.buy-plan-cards.amount-text p {
+    color: white;
+}
+
+.buy-plan-cards:hover .plan-card sup {
+    color: white;
+}
+
+.buy-plan-cards:hover .hbtn {
     display: block;
     margin-bottom: 10px;
 }
 
-.cards:hover .plan-feature-section {
+.buy-plan-cards:hover .plan-feature-section {
     background-color: white;
     color: #191A15;
 }
-
-.plan-card p {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 10px;
+.buy-plan-cards:hover .amount-text p{
+    color: white;
 }
 
-.plan-card-header p {
+.plan-card-subtext p {
     display: block;
     margin: 0 auto;
     font-size: 18px;
@@ -121,6 +120,14 @@ button {
     width: 210px;
     text-align: center;
 }
+
+.plan-card-header p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 
 .amount-text p {
     display: block;
@@ -168,7 +175,8 @@ button {
     width: 26px;
     padding-left: 10px;
 }
-.plan-card-header3 p {
+
+.plan-card-subtext-one p {
     display: block;
     margin: 0 auto;
     font-size: 18px;
@@ -177,6 +185,7 @@ button {
     text-align: center;
     color: #A6A6A6;
 }
+
 .card-btn {
     display: block;
     margin: 0 auto;
@@ -203,32 +212,29 @@ button {
 
 @media (min-width: 400px) and (max-width: 576px) {
 
-    .plan-section {
-        background: radial-gradient(ellipse at top left, #FFD6D6, white, transparent),
-            radial-gradient(ellipse at bottom right, #54BD95, white, transparent);
-    }
-
     .plan-heading-text p {
         display: block;
         margin: 0 auto;
         font-size: 20px;
-        margin-bottom: 20px;
         font-weight: bold;
-        line-height: 20px;
         width: 400px;
-        text-align: center;
-        padding-top: 20px;
+        padding: 10px 0px 10px 0px;
+        line-height: 40px;
     }
-    .plan-subtext{
+
+    .plan-subtext p {
         display: block;
         margin: 0 auto;
-        width: 260px;
+        width: 265px;
         color: #A6A6A6;
         font-size: 14px;
-        line-height: 25px;
         font-weight: bold;
         text-align: center;
+        padding: 10px 0px 20px 0px;
+
+
     }
+
 
     .plan-dual-btn {
         display: flex;
@@ -243,7 +249,7 @@ button {
         filter: drop-shadow(1px 1px 4px rgb(202, 202, 202));
     }
 
-    .dual-button  {
+    .dual-button {
         width: 160px;
         height: 56px;
         background-color: white;
@@ -253,12 +259,12 @@ button {
         border-radius: 10px;
     }
 
-    .dual-button:hover  {
+    .dual-button:hover {
         background-color: #54BD95;
         color: white;
     }
 
-    .plan-card-header p {
+    .plan-card-subtext p {
         display: block;
         margin: 0 auto;
         font-size: 14px;
@@ -268,27 +274,29 @@ button {
         text-align: center;
     }
 
- 
+
 
     .plan-card-section {
         display: flex;
         flex-direction: column;
-        width: 1180px;
+        width: 100%;
         justify-content: space-between;
         padding: 0px;
         margin-top: 20px;
     }
 
-    .cards {
+    .buy-plan-cards {
         width: 374px;
         height: 582px;
         border-radius: 10px;
         background-color: white;
-        margin: 2%;
+        margin: 0 auto;
+        display: block;
         transition: transform 0.5s;
+        margin-top: 30px;
     }
 
-    .plan-card {
+    .plan-card-header {
         text-align: center;
         font-size: 20px;
         font-weight: 600;

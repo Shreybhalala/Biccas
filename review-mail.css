@@ -57,18 +57,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 612px;
-    height: 588;
+    height: 588px;
     background-color: #222938;
     border-radius: 20px;
     margin-top: 40px;
 }
 
-.form-size {
-    width: 440px;
-    height: 340px;
-}
+
 
 .get-started-img {
     display: block;
@@ -78,17 +74,19 @@
     height: 132px;
 }
 
-.email-form label {
+.email-box label {
     font-size: 18px;
     color: #fff;
-    margin-bottom: 10px;
+
 }
 
-.email-form {
+.email-box {
+    display: flex;
+    flex-direction: column;
     padding-top: 10px;
 }
 
-.email-form input,
+.email-box input,
 textarea {
     padding: 10px;
     width: 100%;
@@ -99,18 +97,44 @@ textarea {
     margin-top: 20px;
 }
 
-.email-form input {
+.email-box input {
     width: 440px;
     height: 50px;
 }
 
-.email-form textarea {
+.email-box textarea {
+    height: 80px;
+    width: 440px;
+}
+
+.message-box label {
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.message-box textarea {
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.message-box textarea {
     height: 80px;
     width: 440px;
 }
 
 .requestbtn {
-    margin-top: 90px;
     background-color: #54BD95;
     color: #fff;
     padding: 10px;
@@ -250,12 +274,13 @@ textarea {
     }
 
     .review-content p {
-        margin-bottom: 30px;
-        width: 444px;
+        width: 300px;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 18px;
         color: white;
-        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 20px 0px 10px 0px;
     }
 
     .review-text p {
@@ -297,43 +322,48 @@ textarea {
     }
 
     .request-form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
         width: 380px;
-        height: 588;
+        align-items: center;
+        height: 530px;
         background-color: #222938;
         border-radius: 20px;
-        margin-left: 20px;
-        margin-top: 40px;
+        display: flex;
+        margin: 80px 0px 0px 22px;
     }
 
-    .form-header-img {
+    .get-started-img {
         display: block;
         margin: 0 auto;
-        padding-top: 0px;
+        padding-top: 30px;
         width: 168px;
         height: 120px;
     }
 
-    .email-form {
-        padding-top: 10px;
-        padding-left: 40px;
+    .email-box {
+        margin: 0 auto;
+        display: block;
+        width: 345px;
+
     }
 
-    .email-form input {
-        width: 351px;
+    .email-box input {
+        width: 350px;
         height: 50px;
     }
 
-    .email-form textarea {
+    .message-box {
+        margin: 0 auto;
+        display: block;
+        width: 345px;
+    }
+
+    .message-box textarea {
         height: 80px;
-        width: 351px;
+        width: 350px;
     }
 
     .requestbtn {
-
         background-color: #54BD95;
         color: #fff;
         padding: 10px;
@@ -374,6 +404,10 @@ textarea {
         font-size: 16px;
         color: #A6A6A6;
         margin-bottom: 10px;
+    }
+
+    .footer-menu-list {
+        width: 100%;
     }
 
     .footer-menu-list li {

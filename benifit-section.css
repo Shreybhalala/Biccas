@@ -17,6 +17,7 @@
     font-weight: bold;
     font-size: 50px;
 }
+
 .benifit-point {
     display: flex;
     gap: 20px;
@@ -30,7 +31,7 @@
 }
 
 
-.rtick-bullet-image {
+.tick-bullet-image {
     height: 32px;
     width: 32px;
 }
@@ -55,7 +56,7 @@
     height: 82px;
 }
 
-.total-income-img{
+.total-income-img {
     position: absolute;
     top: 2650px;
     left: 1100px;
@@ -89,13 +90,31 @@
     }
 
     .benifit-section-content {
-        padding-left: 30px;
+        padding-left: 0px;
+
     }
+
     .benifit-header-text p {
         width: 367px;
         font-weight: bold;
         font-size: 30px;
+        margin: 0 auto;
+        display: block;
+        padding: 20px 0 20px 0;
     }
+
+    .benifit-point {
+        width: 350px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        gap: 15px;
+    }
+
+    .tick-bullet-image {
+        height: 25px;
+    }
+
 
     .benifit-point-text p {
         font-size: 14px;
@@ -106,15 +125,17 @@
         margin-top: 0px;
     }
 
-    .benifit-main-image{
+    .benifit-main-image {
         display: block;
         margin: auto;
     }
+
     .main-image {
         width: 300px;
         height: 400px;
     }
-    .side-image {
+
+    .benifit-small-images {
         display: none;
     }
 }
