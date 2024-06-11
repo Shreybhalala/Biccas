@@ -1,6 +1,6 @@
 .review-mail-section {
-    height: auto;
-    width: auto;
+    
+    width: 100%;
     background-color: #161C28;
 }
 
@@ -259,7 +259,7 @@ textarea {
     color: #fff;
 }
 
-@media (min-width: 400px) and (max-width: 576px) {
+@media (max-width: 576px) {
 
     .review-section {
         display: flex;
@@ -269,8 +269,13 @@ textarea {
     }
 
     .review-content {
-        width: 425px;
-        height: 475px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+        width: 100%;
+
     }
 
     .review-content p {
@@ -278,14 +283,11 @@ textarea {
         font-weight: 600;
         font-size: 18px;
         color: white;
-        display: block;
-        margin: 0 auto;
         padding: 20px 0px 10px 0px;
     }
 
     .review-text p {
-        display: block;
-        margin: 0 auto;
+
         width: 330px;
         line-height: 24px;
         font-size: 14px;
@@ -293,27 +295,13 @@ textarea {
         text-align: center;
     }
 
-    .double-quote-img {
-        padding-left: 70px;
-        text-align: center;
-        height: 28px;
-        width: 25px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
     .customer-comment p {
-        display: block;
-        margin: 0 auto;
-        width: 357px;
-        font-size: 14px;
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
         color: #A6A6A6;
         line-height: 28px;
 
-    }
-
-    .customer-image-bar {
-        padding-left: 50px;
     }
 
     .flow-img {
@@ -322,14 +310,13 @@ textarea {
     }
 
     .request-form {
+        display: flex;
         justify-content: center;
-        width: 380px;
+        width: 100%;
         align-items: center;
-        height: 530px;
         background-color: #222938;
         border-radius: 20px;
-        display: flex;
-        margin: 80px 0px 0px 22px;
+
     }
 
     .get-started-img {
@@ -392,7 +379,7 @@ textarea {
     .biccas-mail {
         background-color: transparent;
         border: 2px solid #A6A6A6;
-        width: 344px;
+        width: 275px;
         height: 60px;
         border-radius: 70px;
         font-size: 16px;

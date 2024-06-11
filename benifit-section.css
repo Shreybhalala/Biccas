@@ -2,11 +2,14 @@
     display: flex;
     gap: 150px;
     background: radial-gradient(ellipse at bottom right, #54BD95, white, transparent);
-    height: 100%;
+    padding-bottom: 60px;
 }
 
 .benifit-section-content {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    height: 100%;
     max-width: 471px;
     padding-left: 130px;
 }
@@ -31,7 +34,7 @@
 }
 
 
-.tick-bullet-image {
+.tick-image {
     height: 32px;
     width: 32px;
 }
@@ -39,6 +42,7 @@
 .benifit-image-section {
     margin-top: 50px;
     display: flex;
+
     width: 100%;
 }
 
@@ -50,7 +54,7 @@
 
 .save-money-img {
     position: absolute;
-    top: 2600px;
+    top: 2470px;
     left: 670px;
     width: 304px;
     height: 82px;
@@ -58,7 +62,7 @@
 
 .total-income-img {
     position: absolute;
-    top: 2650px;
+    top: 2550px;
     left: 1100px;
     width: 138px;
     height: 70px;
@@ -66,7 +70,7 @@
 
 .green-gallery-img {
     position: absolute;
-    top: 2800px;
+    top: 2700px;
     left: 680px;
     width: 40px;
     height: 40px;
@@ -74,13 +78,13 @@
 
 .transfer-money-img {
     position: absolute;
-    top: 3020px;
+    top: 2900px;
     left: 670px;
     width: 302px;
     height: 68px;
 }
 
-@media (min-width: 400px) and (max-width: 576px) {
+@media (max-width: 576px) {
     .benifit-section {
         display: flex;
         flex-direction: column;
@@ -88,34 +92,25 @@
         width: 100%;
         gap: 0px;
     }
-
     .benifit-section-content {
         padding-left: 0px;
-
     }
 
     .benifit-header-text p {
-        width: 367px;
+        width: 340px;
         font-weight: bold;
-        font-size: 30px;
-        margin: 0 auto;
-        display: block;
+        font-size: 25px;
+        text-align: center;
         padding: 20px 0 20px 0;
     }
 
     .benifit-point {
-        width: 350px;
-        display: flex;
-        align-items: center;
-        margin: 0 auto;
         gap: 15px;
     }
 
-    .tick-bullet-image {
+    .tick-image {
         height: 25px;
     }
-
-
     .benifit-point-text p {
         font-size: 14px;
         color: #191A15;
@@ -138,4 +133,34 @@
     .benifit-small-images {
         display: none;
     }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .benifit-section-content {
+        padding-left: 0px;
+    }
+    .benifit-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+  
+        width: 100%;
+        gap: 0px;
+    }
+    .benifit-small-images {
+        display: none;
+    }
+    .main-image{
+        display: none;
+    }
+    .benifit-header-text p {
+        width: 455px;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        padding: 0;
+    }
+
 }

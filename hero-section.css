@@ -57,7 +57,6 @@ body {
 /* Main header styles */
 .hero-section-header {
     align-items: center;
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20 20px;
@@ -164,10 +163,10 @@ body {
 .productivity-buttons {
     display: flex;
     gap: 50px;
+    justify-content: center;
 }
 
 .trial-btn {
-    margin: 30px 0px 0px 130px;
     width: 165px;
     height: 62px;
     border-radius: 40px;
@@ -179,7 +178,6 @@ body {
 
 .view-btn {
     display: flex;
-    margin-top: 30px;
     align-items: center;
     background: transparent;
     border: none;
@@ -201,7 +199,7 @@ body {
 
 .section-img {
     width: 402px;
-    height: 526px;
+
 }
 
 .value-box {
@@ -309,14 +307,14 @@ input {
 }
 
 /* Media Query for Mobile Devices */
-@media (min-width: 400px) and (max-width: 576px) {
+@media (max-width: 576px) {
     body {
         margin: 0;
         padding: 0;
     }
 
     .hero-section-header {
-        width: 400px;
+        width: 348px;
         padding: 10px 0px 0px 0px;
 
     }
@@ -369,15 +367,19 @@ input {
         display: block;
         margin: 0 auto;
         padding: 10px 0;
-        width: 400px;
+        width: 350px;
         font-size: 14px;
         line-height: 20px;
         text-align: center;
     }
 
     .productivity-buttons {
-        gap: 10px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
         width: 100%;
+        gap: 0px;
+
     }
 
     .trial-btn {
@@ -435,21 +437,21 @@ input {
     }
 
     .section-img {
-        width: 402px;
-        height: 385px;
+        width: 100%;
+
     }
 
     .credit-card-img {
         position: absolute;
         top: 228px;
-        left: 287px;
-        width: 100px;
+        left: 280px;
+        width: 60px;
     }
 
     .yellow-block-image {
         position: absolute;
         top: 20px;
-        left: 335px;
+        left: 310px;
         width: 40px;
         height: auto;
         margin: 10px 0;
@@ -486,4 +488,155 @@ input {
         width: 250px;
         margin: 0 auto;
     }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-section-header {
+        padding: 10px;
+    }
+
+    .main-header {
+        display: flex;
+
+    }
+    .navbar {
+        display: flex;
+        width: 100%;
+    }
+    .nav-links {
+        display: flex;
+        width: 360px;
+        padding-left:20px;
+        list-style-type: none;
+    }
+    .login {
+        display: flex;
+        gap: 20px;
+        padding-left: 0px;
+        align-items: center;
+    }
+
+
+.hero-section-image {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+    .hero-section-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        
+    }    
+    .company-logo-bar {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        justify-content: center;
+        gap: 40px;
+        padding-bottom: 80px;
+    }
+
+    .productivity-text{
+        display: flex;
+        flex-direction: column;
+        width: 631px;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    .productivity-text p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .productivity-subtext  {
+        padding: 0px;
+        width: 461px;
+        display: block;
+        margin: 0 auto;
+       
+       
+    }
+    .productivity-subtext p {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .total-income-image {
+        position: absolute;
+        top: 420px;
+        right: 420px;
+        width: 138px;
+        height: 70px;
+    }
+    .value-box {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30px;
+        right: 500px;
+        width: 225px;
+        height: 78px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+.send-btn {
+    position: absolute;
+    left: 183px;
+    top: 55px;
+    width: 64px;
+    height: 28px;
+    border-radius: 40px;
+    border: 0;
+    background-color: #54BD95;
+    color: white;
+    font-size: 13px;
+}
+.total-income-image {
+    position: absolute;
+    top: 420px;
+    right: 520px;
+    width: 138px;
+    height: 70px;
+}
+.yellow-block-image {
+    position: absolute;
+    top: 20px;
+    left: 570px;
+    width: 60px;
+    height: 60px;
+}
+.blue-tick-image {
+    position: absolute;
+    top: 240px;
+    left: 115px;
+    width: 40px;
+    height: 40px;
+}
+.credit-card-img {
+    position: absolute;
+    top: 330px;
+    left: 510px;
+    width: 146px;
+    height: 186px;
+}
+
+.pink-msg-image {
+    position: absolute;
+    top: 510px;
+    left: 480px;
+    width: 40px;
+    height: 40px;
+}
 }
