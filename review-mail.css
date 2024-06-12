@@ -259,7 +259,7 @@ textarea {
     color: #fff;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
 
     .review-section {
         display: flex;
@@ -435,4 +435,33 @@ textarea {
     }
 
 
+}
+
+
+@media (min-width: 769px) and (max-width:992px) {
+    .review-section{
+        display: flex ;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .biccas-content{
+        padding-top: 40px;
+    }
+    .biccas-mail-section{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-copyright {
+        display: flex;
+        padding-left: 0;
+        justify-content: center;
+        gap: 90px;
+        padding-top: 40px;
+    }
 }

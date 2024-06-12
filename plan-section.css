@@ -212,7 +212,7 @@ button {
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
 
     .plan-heading-text p {
 
@@ -231,8 +231,6 @@ button {
         font-weight: bold;
         text-align: center;
         padding: 10px 0px 20px 0px;
-
-
     }
 
 
@@ -345,6 +343,15 @@ button {
         text-align: center;
         padding-top: 20px;
     }
+}
 
-
+@media (min-width: 768px) and (max-width:992px){
+    .plan-card-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        width: 100%;
+    }
 }

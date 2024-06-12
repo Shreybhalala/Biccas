@@ -71,7 +71,7 @@
     line-height: 30px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
 
     .feature-section-header {
         margin: 0 auto;
@@ -135,7 +135,8 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
+
+@media (min-width: 768px) and (max-width:992px){
 
     .feature-section-header {
         margin: 0 auto;
@@ -200,13 +201,3 @@
 
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
-    .plan-card-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 0px !important;
-        width: 100% !important;
-    }
-}
