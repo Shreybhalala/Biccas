@@ -165,3 +165,12 @@
     }
 
 }
+@media (min-width: 993px) and (max-width:1200px) {
+    .benifit-section {
+        display: flex;
+        gap: 100px;
+    }
+.benifit-small-images {
+    display: none;
+}
+}

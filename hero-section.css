@@ -205,16 +205,17 @@ body {
     width: 100%;
 }
 
+.main-image-section {
+    width: 410px;
+    height: 526px;
+}
+
 .hero-section-image {
     display: flex;
     position: relative;
     width: 100%;
 }
 
-.section-img {
-    width: 402px;
-
-}
 
 .value-box {
     display: flex;
@@ -329,9 +330,9 @@ input {
 
     .hero-section-header {
         width: 100%;
-        padding: 10px;
+        padding: 0px;
         margin: 0;
-        max-width: 0;
+
     }
 
     .main-header {
@@ -519,10 +520,10 @@ input {
     .hero-section-header {
         display: flex;
         align-items: center;
-        padding: 10px;
+        padding: 0;
         width: 100%;
-        max-width: 0;
-        margin: 0;
+        max-width: 1200px;
+        justify-content: center;
     }
 
     .main-header {
@@ -537,9 +538,9 @@ input {
 
     .nav-links {
         display: flex;
-        width: 408px;
+        width: 212px;
         padding-left: 120px;
-        list-style-type: none;
+
     }
 
     .nav-links li {
@@ -706,5 +707,73 @@ input {
         left: 480px;
         width: 40px;
         height: 40px;
+    }
+}
+
+@media (min-width: 993px) and (max-width:1200px) {
+
+    .hero-section-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 0;
+        padding: 0px;
+    }
+
+    .nav-links {
+        display: flex;
+        width: 312px;
+        padding-left: 120px;
+    }
+
+    .hero-section-text {
+        display: flex;
+        align-items: center;
+        gap: 160px;
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .productivity-text {
+        padding-left: 20px;
+        width: 100%;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 80px;
+    }
+
+    .main-image-section {
+        width: 293px;
+        height: 378px;
+    }
+
+    .credit-card-img,
+    .yellow-block-image,
+    .pink-msg-image,
+    .total-income-image,
+    .blue-tick-image {
+        display: none;
+    }
+
+    .company-logo-bar {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        justify-content: center;
+        gap: 40px;
+        padding-bottom: 80px;
+    }
+
+    .value-box {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30px;
+        right: 378px;
+        width: 222px;
+        height: 78px;
+        border-radius: 10px;
+        background-color: white;
     }
 }

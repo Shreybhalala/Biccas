@@ -215,7 +215,6 @@ button {
 @media (max-width: 768px) {
 
     .plan-heading-text p {
-
         font-size: 20px;
         font-weight: bold;
         width: 300px;
@@ -224,7 +223,6 @@ button {
     }
 
     .plan-subtext p {
-
         width: 265px;
         color: #A6A6A6;
         font-size: 14px;
@@ -232,8 +230,6 @@ button {
         text-align: center;
         padding: 10px 0px 20px 0px;
     }
-
-
     .plan-dual-btn {
         display: flex;
         justify-content: center;

@@ -6,9 +6,12 @@
 .feature-section-header {
     display: flex;
     align-items: center;
-    width: 1180px;
-    justify-content: space-between;
-    padding-left: 130px;
+    width: 100%;
+    max-width: 1180px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 100px;
+    
 }
 
 .feature-header-text p {
@@ -79,6 +82,7 @@
         align-items: center;
         padding-left: 0px;
         width: 100%;
+        gap: 10px;
     }
 
     .feature-header-text p {
@@ -201,3 +205,19 @@
 
 }
 
+@media (min-width: 993px) and (max-width:1200px) {
+    .feature-section-header {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+
+    .feature-card-section {
+        display: flex;
+        width: 100%;
+        gap: 20px; 
+     padding-left: 0px;
+    }
+}
