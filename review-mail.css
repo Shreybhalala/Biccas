@@ -1,0 +1,467 @@
+.review-mail-section {
+    
+    width: 100%;
+    background-color: #161C28;
+}
+
+.review-section {
+    display: flex;
+    padding-left: 130px;
+    gap: 100px;
+}
+
+.review-content {
+    width: 466px;
+    height: 588px;
+}
+
+.review-content p {
+    margin-bottom: 20px;
+    width: 444px;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+}
+
+.review-text p {
+    width: 461px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #A6A6A6;
+}
+
+.double-quote-img {
+    height: 38px;
+    width: 45px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.customer-comment p {
+
+    width: 461px;
+    font-size: 18px;
+    color: #A6A6A6;
+    line-height: 30px;
+
+}
+
+.flow-img {
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 66px;
+    height: 66px;
+}
+
+.request-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 612px;
+    height: 588px;
+    background-color: #222938;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+
+
+.get-started-img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 168px;
+    height: 132px;
+}
+
+.email-box label {
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.email-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.email-box input,
+textarea {
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.email-box input {
+    width: 440px;
+    height: 50px;
+}
+
+.email-box textarea {
+    height: 80px;
+    width: 440px;
+}
+
+.message-box label {
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.message-box textarea {
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.message-box textarea {
+    height: 80px;
+    width: 440px;
+}
+
+.requestbtn {
+    background-color: #54BD95;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 440px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.request-form-footer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 320px;
+}
+
+.request-form-footer p {
+    font-size: 14px;
+    color: #A6A6A6;
+}
+
+.request-form-footer a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.biccas-mail-section {
+    display: flex;
+    gap: 100px;
+    padding-left: 130px;
+    padding-top: 120px;
+}
+
+.biccas-content p {
+    width: 286px;
+    font-size: 18px;
+    color: #A6A6A6;
+    margin-bottom: 30px;
+}
+
+.biccas-img {
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.biccas-mail {
+    background-color: transparent;
+    border: 2px solid #A6A6A6;
+    width: 410px;
+    height: 60px;
+    border-radius: 70px;
+    padding: 10px;
+    font-size: 18px;
+    color: #A6A6A6;
+}
+
+.arrow-button {
+    position: relative;
+    top: 18px;
+    right: 60px;
+    height: 46px;
+    width: 46px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-menu-list {
+    width: 175px;
+    height: 200px;
+}
+
+.footer-menu-list ul {
+    padding: 0%;
+}
+
+.footer-menu-list h1 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.footer-menu-list a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #A6A6A6;
+}
+
+.footer-menu-list li {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.footer-copyright {
+    display: flex;
+    padding-left: 130px;
+    gap: 460px;
+    padding-top: 40px;
+}
+
+.footer-copyright p {
+    color: white;
+}
+
+.footer-terms {
+    display: flex;
+    align-items: center;
+}
+
+.footer-terms a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-terms span {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+
+    .review-section {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        gap: 0px;
+    }
+
+    .review-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+        width: 100%;
+
+    }
+
+    .review-content p {
+        width: 300px;
+        font-weight: 600;
+        font-size: 18px;
+        color: white;
+        padding: 20px 0px 10px 0px;
+    }
+
+    .review-text p {
+
+        width: 330px;
+        line-height: 24px;
+        font-size: 14px;
+        color: #A6A6A6;
+        text-align: center;
+    }
+
+    .customer-comment p {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+        color: #A6A6A6;
+        line-height: 28px;
+
+    }
+
+    .flow-img {
+        width: 45px;
+        height: 66px;
+    }
+
+    .request-form {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        background-color: #222938;
+        border-radius: 20px;
+
+    }
+
+    .get-started-img {
+        display: block;
+        margin: 0 auto;
+        padding-top: 30px;
+        width: 168px;
+        height: 120px;
+    }
+
+    .email-box {
+        margin: 0 auto;
+        display: block;
+        width: 345px;
+
+    }
+
+    .email-box input {
+        width: 350px;
+        height: 50px;
+    }
+
+    .message-box {
+        margin: 0 auto;
+        display: block;
+        width: 345px;
+    }
+
+    .message-box textarea {
+        height: 80px;
+        width: 350px;
+    }
+
+    .requestbtn {
+        background-color: #54BD95;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        width: 280px;
+        height: 44px;
+        font-size: 16px;
+    }
+
+    .request-form-footer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding-left: 0px;
+    }
+
+    .biccas-mail-section {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+
+    .biccas-mail {
+        background-color: transparent;
+        border: 2px solid #A6A6A6;
+        width: 275px;
+        height: 60px;
+        border-radius: 70px;
+        font-size: 16px;
+        color: #A6A6A6;
+    }
+
+    .biccas-content p {
+        width: 286px;
+        font-size: 16px;
+        color: #A6A6A6;
+        margin-bottom: 10px;
+    }
+
+    .footer-menu-list {
+        width: 100%;
+    }
+
+    .footer-menu-list li {
+        list-style-type: none;
+        margin-top: 10px;
+    }
+
+    .footer-menu-list h1 {
+        color: white;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .footer-menu-list a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #A6A6A6;
+    }
+
+    .footer-copyright {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        gap: 0px;
+        padding-top: 5px;
+    }
+
+    .footer-copyright p {
+        font-size: 14px;
+        color: white;
+        text-align: center;
+    }
+
+    .footer-terms {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media (min-width: 769px) and (max-width:992px) {
+    .review-section{
+        display: flex ;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .biccas-content{
+        padding-top: 40px;
+    }
+    .biccas-mail-section{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-copyright {
+        display: flex;
+        padding-left: 0;
+        justify-content: center;
+        gap: 90px;
+        padding-top: 40px;
+    }
+}

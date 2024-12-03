@@ -1,0 +1,176 @@
+.benifit-section {
+    display: flex;
+    gap: 150px;
+    background: radial-gradient(ellipse at bottom right, #54BD95, white, transparent);
+    padding-bottom: 60px;
+}
+
+.benifit-section-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    max-width: 471px;
+    padding-left: 130px;
+}
+
+
+.benifit-header-text p {
+    width: 429px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.benifit-point {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.benifit-point-text p {
+    font-size: 18px;
+    color: #191A15;
+}
+
+
+.tick-image {
+    height: 32px;
+    width: 32px;
+}
+
+.benifit-image-section {
+    margin-top: 50px;
+    display: flex;
+
+    width: 100%;
+}
+
+.main-image {
+    position: relative;
+    height: 529px;
+    width: 450px;
+}
+
+.save-money-img {
+    position: absolute;
+    top: 2470px;
+    left: 670px;
+    width: 304px;
+    height: 82px;
+}
+
+.total-income-img {
+    position: absolute;
+    top: 2550px;
+    left: 1100px;
+    width: 138px;
+    height: 70px;
+}
+
+.green-gallery-img {
+    position: absolute;
+    top: 2700px;
+    left: 680px;
+    width: 40px;
+    height: 40px;
+}
+
+.transfer-money-img {
+    position: absolute;
+    top: 2900px;
+    left: 670px;
+    width: 302px;
+    height: 68px;
+}
+
+@media (max-width: 768px) {
+    .benifit-section {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        gap: 0px;
+    }
+    .benifit-section-content {
+        padding-left: 0px;
+    }
+
+    .benifit-header-text p {
+        width: 340px;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+
+    .benifit-point {
+        gap: 15px;
+    }
+
+    .tick-image {
+        height: 25px;
+    }
+    .benifit-point-text p {
+        font-size: 14px;
+        color: #191A15;
+    }
+
+    .benifit-image-section {
+        margin-top: 0px;
+    }
+
+    .benifit-main-image {
+        display: block;
+        margin: auto;
+    }
+
+    .main-image {
+        width: 300px;
+        height: 400px;
+    }
+
+    .benifit-small-images {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width:992px){
+
+    .benifit-section-content {
+        padding-left: 0px;
+    }
+    .benifit-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+  
+        width: 100%;
+        gap: 0px;
+    }
+    .benifit-small-images {
+        display: none;
+    }
+    .main-image{
+        display: none;
+    }
+    .benifit-header-text p {
+        width: 455px;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        padding: 0;
+    }
+
+}
+@media (min-width: 993px) and (max-width:1200px) {
+    .benifit-section {
+        display: flex;
+        gap: 100px;
+    }
+.benifit-small-images {
+    display: none;
+}
+}
